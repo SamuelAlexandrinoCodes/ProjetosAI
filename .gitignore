@@ -1,0 +1,46 @@
+﻿Ficheiro .gitignore otimizado para projetos C# com Visual Studio.
+Este ficheiro ignora ficheiros gerados pela compilação, configurações de utilizador e outros
+ficheiros temporários que não devem ser incluídos no controlo de versão.
+Visual Studio
+*.sln.docstates
+*.suo
+*.user
+*.userosscache
+*.sln.ide
+*.vspscc
+Pastas de compilação
+[Bb]in/
+[Dd]ebug/
+[Oo]bj/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Bb]uild/
+[Rr]eleases/
+Ficheiros de projeto específicos do utilizador
+*.csproj.user
+*.vcxproj.user
+*.dbmdl
+*.jfm
+Ficheiros gerados pelo sistema
+*.[Cc]ache
+*.orig
+*.un~
+*~
+*.log
+*.tmp
+*.bak
+*.swp
+Thumbs.db
+[Dd]esktop.ini
+Outros
+_ReSharper.*/
+*.resharper
+packages/
+*.nupkg
+TestResults/
+*.DotSettings.user
+Pasta .vs (usada pelas versões mais recentes do Visual Studio)
+.vs/
