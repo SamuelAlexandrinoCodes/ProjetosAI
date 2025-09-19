@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otimizador de Gradiente em Codigo", "Otimizador de Gradiente em Codigo\Otimizador de Gradiente em Codigo.csproj", "{DDE3D724-3E56-4ECE-9911-512BEDB8B160}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDE3D724-3E56-4ECE-9911-512BEDB8B160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE3D724-3E56-4ECE-9911-512BEDB8B160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE3D724-3E56-4ECE-9911-512BEDB8B160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE3D724-3E56-4ECE-9911-512BEDB8B160}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88DB0AE0-3C42-4653-9C44-82E47BAD8081}
+	EndGlobalSection
+EndGlobal
