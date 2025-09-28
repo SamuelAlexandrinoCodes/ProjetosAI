@@ -4,6 +4,13 @@ Bem-vindo ao meu repositório de projetos de IA! Este espaço é dedicado aos me
 
 ## Projetos:
 
+* **Classificador Logístico Binário 'do Zero' (C#)**
+  * **Descrição:** Uma implementação fundamental do algoritmo de **Regressão Logística** para classificação binária, construído inteiramente do zero. O objetivo foi dominar a mecânica interna de como um modelo aprende a classificar dados, prevendo a aprovação (1) ou reprovação (0) de um aluno com base nas horas de estudo. O código demonstra a construção manual da **Função Sigmóide** para converter saídas lineares em probabilidades e, mais importante, do otimizador de **Descida do Gradiente** para minimizar a função de custo **Log Loss**, ensinando o modelo a encontrar a **fronteira de decisão** que melhor separa as duas classes.
+  * **Como Executar:**
+    1. Clone este repositório.
+    2. Abra a solução do projeto no Visual Studio.
+    3. Compile e execute. O console exibirá o processo de treinamento do modelo, incluindo a redução do erro ao longo das épocas, e no final, classificará um novo exemplo.
+
 * **Regressão Linear com Descida do Gradiente (C#)**
   * **Descrição:** Uma implementação do zero do algoritmo de **Descida do Gradiente** para treinar um modelo de Regressão Linear Simples. O objetivo deste projeto é prever a nota de um aluno com base nas horas de estudo. O código demonstra o processo iterativo de ajuste dos parâmetros do modelo (inclinação `m` e intercepto `b`) para minimizar o erro (MSE - Mean Squared Error) e encontrar a linha que melhor se ajusta aos dados. É um estudo fundamental para entender o "coração" do treinamento de muitos modelos de Machine Learning.
   * **Como Executar:**
@@ -16,7 +23,7 @@ Bem-vindo ao meu repositório de projetos de IA! Este espaço é dedicado aos me
   * **Como Executar:**
     1. Abra a solução `ClassificadorDeSpam.sln` no Visual Studio.
     2. Compile e execute o projeto. O programa irá solicitar que insira uma mensagem e irá classificá-la como "Spam" ou "Não Spam".
-    
+
 * **Otimizador Multivariado com Descida do Gradiente (C#)**
   * **Descrição:** Uma evolução da Regressão Linear Simples, este projeto implementa um modelo que prevê a nota final de um aluno com base em múltiplas variáveis de entrada: horas de estudo, número de faltas e a nota de uma avaliação anterior. O núcleo do projeto é a implementação do algoritmo de **Descida do Gradiente Multivariado** para otimizar os múltiplos pesos (parâmetros) do modelo. Também demonstra uma etapa crucial de pré-processamento de dados: a **Normalização de Features (Z-score)**, essencial para que o algoritmo convirja de forma eficiente quando as variáveis têm escalas diferentes.
   * **Como Executar:**
