@@ -9,7 +9,7 @@ Esta pasta contém uma coleção de algoritmos de Machine Learning implementados
 | Projeto / Project | Linguagem | Breve Descrição / Brief Description |
 | :--- | :--- |:--- |
 | **[mlp-neural-network](./mlp-neural-network/)** | C# | Uma Rede Neural Profunda (MLP) 'do zero', com Backpropagation, para classificação não-linear. |
-| **[cnn-concept-prototype](./cnn-concept-prototype/)** | Python | Um protótipo que demonstra a arquitetura e o funcionamento conceitual de uma Rede Neural Convolucional. |
+| **[cnn-concept-prototype](./cnn-concept-prototype/)** | C# | Um protótipo que demonstra a arquitetura e o funcionamento conceitual de uma Rede Neural Convolucional. |
 | **[mini-batch-gd-factory](./mini-batch-gd-factory/)** | C# | Implementação do otimizador Mini-Batch Gradient Descent. |
 | **[batch-gd-optimizer](./batch-gd-optimizer/)** | C# | Implementação do otimizador Batch Gradient Descent. |
 | **[logistic-classifier](./logistic-classifier/)** | C# | Um classificador de Regressão Logística 'do zero', com Função Sigmoide. |
